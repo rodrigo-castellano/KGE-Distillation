@@ -8,7 +8,7 @@ To train the models presented in the paper, navigate to the `experiments` folder
 **Example:**
 ```bash
 python experiments/runner.py --d countries_s3 --m sbr --resnet False --distill True
-
+```
 ## Data
 The datasets can be found in the folder experiments/data.
 
