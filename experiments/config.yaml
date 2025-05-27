@@ -1,0 +1,70 @@
+dataset_name: countries_s1
+grounder: backward_0_1
+model_name: dcr
+kge: complex
+seed: 0
+epochs: 100
+batch_size: 256
+val_batch_size: 256
+test_batch_size: 256
+resnet: True
+store_ranks: False
+stop_kge_gradients: False
+use_logger: True
+use_WB: True
+load_model_ckpt: False
+load_kge_ckpt: False
+save_model_ckpt: True
+save_kge_ckpt: True
+log_folder: ./experiments/runs/
+ckpt_folder: ./../checkpoints/
+data_path: experiments/data
+rules_file: rules.txt
+
+# Experiment configuration file
+valid_size: null  # No validation size specified
+facts_file: 'facts.txt'
+train_file: 'train.txt'
+valid_file: 'valid.txt'
+test_file: 'test.txt'
+domain_file: 'domain2constants.txt'
+
+# KGE parameters
+num_negatives: 1    # Number of negative samples in training
+valid_negatives: 100
+test_negatives: null
+kge_atom_embedding_size: 100
+dropout_rate_embedder: 0.0
+kge_regularization: 0.0
+
+# Model parameters
+early_stopping: True
+learning_rate: 0.01
+lr_sched: 'plateau'
+optimizer: 'adam'
+loss: 'binary_crossentropy'
+weight_loss: 0.5
+dropout: 0.0
+cdcr_use_positional_embeddings: False
+cdcr_num_formulas: 3
+reasoner_depth: 1
+reasoner_regularization_factor: 0.0
+reasoner_dropout_rate: 0.0
+kge_dropout_rate: 0.0
+format: 'functional'
+engine_num_negatives: null
+engine_num_adaptive_constants: 0
+ragged: True
+
+# DCR/R2N parameters
+signed: True
+temperature: 0.0
+aggregation_type: 'max'
+filter_num_heads: 3
+filter_activity_regularization: 0.0
+
+# Other
+# args.adaptation_layer = "identity"  # "dense", "sigmoid","identity"
+# args.output_layer = "dense" # "wmc" or "kge" or "positive_dense" or "max"
+# args.relation_entity_grounder_max_elements = 20
+# args.semiring = "product"
