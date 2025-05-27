@@ -16,8 +16,7 @@ The datasets can be found in the folder experiments/data.
 Theoretical foundations can be found in the manuscript: 'Distilling KGE black boxes into interpretable NeSy models', by Rodrigo Castellano Ontiveros, Francesco Giannini, and Michelangelo Diligenti.
 
 ## Authors
-Rodrigo Castellano Ontiveros 
-Michelangelo Diligenti.
+Rodrigo Castellano Ontiveros and Michelangelo Diligenti.
 
 ## Licence
 Copyright 2020
