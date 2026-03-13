@@ -1,6 +1,6 @@
 # Distilling KGE Black Boxes into Interpretable NeSy Models
 
-This repository contains the code for the paper: **Distilling KGE black boxes into interpretable NeSy models** by Rodrigo Castellano Ontiveros, Francesco Giannini, and Michelangelo Diligenti, accepted to The World Conference on Explainable Artificial Intelligence (XAI) 2025.
+This repository contains the code for the paper: **Distilling KGE black boxes into interpretable NeSy models** by Rodrigo Castellano Ontiveros, Francesco Giannini, and Michelangelo Diligenti, accepted to the 19th International Workshop on Neural-Symbolic Learning and Reasoning (NeSy 2025).
 
 ## Training
 
