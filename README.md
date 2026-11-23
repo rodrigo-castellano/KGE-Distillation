@@ -1,5 +1,7 @@
 # Distilling KGE Black Boxes into Interpretable NeSy Models
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24465162.svg)](https://doi.org/10.5281/zenodo.24465162)
+
 Proceedings of the 19th International Conference on Neurosymbolic Learning and Reasoning (NeSy 2025), PMLR vol. 284, pp. 736–749, 2025  
 [Paper page](https://rodrigocastellano.com/papers/distilling-kge/) · [PDF](https://rodrigocastellano.com/papers/distilling-kge/distilling-kge-nesy2025.pdf) · [Official version](https://proceedings.mlr.press/v284/ontiveros25a.html)
 
@@ -33,7 +35,7 @@ See the License for the specific language governing permissions and limitations 
 
 ## Citation
 
-If you use this code, please cite:
+If you use this code, please cite the paper below. The code itself is archived on Zenodo: [doi:10.5281/zenodo.24465162](https://doi.org/10.5281/zenodo.24465162).
 
 ```bibtex
 @inproceedings{castellanoontiveros2025distilling,

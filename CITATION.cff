@@ -3,6 +3,10 @@ message: "If you use this code, please cite the paper below."
 title: "Distilling KGE black boxes into interpretable NeSy models (code)"
 repository-code: "https://github.com/rodrigo-castellano/KGE-Distillation"
 license: Apache-2.0
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24465162"
+    description: "Zenodo archive of the code (all versions)"
 authors:
   - family-names: "Castellano Ontiveros"
     given-names: "Rodrigo"
