@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Distilling KGE black boxes into interpretable NeSy models (code)"
+repository-code: "https://github.com/rodrigo-castellano/KGE-Distillation"
+authors:
+  - family-names: "Castellano Ontiveros"
+    given-names: "Rodrigo"
+    orcid: "https://orcid.org/0000-0003-2324-633X"
+  - family-names: "Giannini"
+    given-names: "Francesco"
+  - family-names: "Diligenti"
+    given-names: "Michelangelo"
+    orcid: "https://orcid.org/0000-0002-5805-8032"
+preferred-citation:
+  type: conference-paper
+  title: "Distilling KGE black boxes into interpretable NeSy models"
+  authors:
+    - family-names: "Castellano Ontiveros"
+      given-names: "Rodrigo"
+      orcid: "https://orcid.org/0000-0003-2324-633X"
+    - family-names: "Giannini"
+      given-names: "Francesco"
+    - family-names: "Diligenti"
+      given-names: "Michelangelo"
+      orcid: "https://orcid.org/0000-0002-5805-8032"
+  collection-title: "Proceedings of the 19th International Conference on Neurosymbolic Learning and Reasoning"
+  volume: "284"
+  start: 736
+  end: 749
+  year: 2025
+  url: "https://rodrigocastellano.com/papers/distilling-kge/"
